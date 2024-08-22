@@ -1,5 +1,5 @@
 /*
-    NOTE TO STUDENTS: 
+    NOTE TO STUDENTS: .
 
     This is the file you should be writing your CSS in 
     for the Upside-down Tetris assignment.
@@ -37,4 +37,9 @@
 .yellow {
     background-color: yellow;
     border-color: rgb(155, 155, 2);
+}
+
+.black {
+    background-color: black;
+    border-color: black;
 }
