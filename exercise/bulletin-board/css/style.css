@@ -1,0 +1,45 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.block-styled{
+    border: 20px solid lightblue;
+    background-color: lightblue;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 24px;
+    padding: 24px;
+    font-size: 9px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.block-styled1{
+    border: 20px solid limegreen;
+    background-color: limegreen;
+    display: inline-block;
+    width: 100px ;
+    height: 100px ;
+    margin: 24px;
+    padding: 24px;
+    font-size: 9px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.block-styled2{
+    border: 20px solid rgb(238, 238, 67);
+    background-color: rgb(238, 238, 67);
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 24px;
+    padding: 24px;
+    font-size: 9px;
+    
+    font-family: sans-serif;
+}
