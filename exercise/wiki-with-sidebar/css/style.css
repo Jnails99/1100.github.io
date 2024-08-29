@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#two-columns {
+    display: flex;
+}
+
+#sidebar-content {
+    width: 200px;
+    order: 2;
+}
+
+#main-content {
+    flex: 1;
+    order: 1;
+}
