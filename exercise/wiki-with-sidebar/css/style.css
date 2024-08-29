@@ -13,10 +13,12 @@ body {
 
 #sidebar-content {
     width: 200px;
-    order: 2;
+}
+
+.colored{
+    color: blue;
 }
 
 #main-content {
     flex: 1;
-    order: 1;
 }
