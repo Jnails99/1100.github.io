@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.two-content {
+    display: grid;
+    grid-template-columns: ;
+}
+
+.main-content {
+    width: 200px;
+}
