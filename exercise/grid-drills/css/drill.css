@@ -1,0 +1,67 @@
+/* Drill 1 - Write your code solution below */
+#container-d1{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-width: 160px;
+}
+
+
+/* Drill 2 - Write your code solution below */
+#container-d2{
+    grid-template-columns: 22% 45% 22%;
+    display: grid;
+}
+
+/* Drill 3 - Write your code solution below */
+#container-d3{
+    grid-template-columns: 30% 30% 30%;
+    display: grid;
+}
+
+/* Drill 4 - Write your code solution below */
+#container-d4{
+    display: grid;
+    grid-template-areas: 
+    "area-2 area-3 area-1";
+
+}
+
+/* Drill 5 - Write your code solution below */
+.three-columns{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#container-d5{
+    display: grid;
+    grid-template-areas: 
+    ".header header."
+    ".sidebar content-1." 
+    ".sidebar content-2";
+}
+#container-d5 .d5-cell1{
+    grid-area: header;
+    grid-template-columns: 100%;
+}
+#container-d5 .d5-cell2{
+    grid-area: content-1;
+}
+#container-d5 .d5-cell3{
+    grid-area: sidebar;
+}
+
+/* Drill 6 - Write your code solution below */
+.two-columns{
+    grid-template-columns: 1fr 2fr 1fr;
+}
+#container-d6{
+    display: grid; 
+    padding: 24px;
+}
+#d6-cell1{
+    width: 150px;
+    height: 100px;
+    align-items: flex-start;
+
+}
+#d6-cell2{
+    width: 150px;
+}
