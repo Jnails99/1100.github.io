@@ -1,0 +1,128 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+#trek-card-1 {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   height: 675px;
+   width: 360px;
+   align-items: center;
+   margin-top: 12px;
+}
+.card-style-1 {
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-color: white;
+}
+#trek-card-1 img{
+    height: 268px;
+    width: 680px;
+}
+#trek-card-1 h2{
+    margin-left: 50px;
+}
+#trek-card-1 a{
+    margin-left: 124px;
+    margin-bottom: 20px;
+    background-color: green;
+    border: solid green;
+    border-width: 34px;
+}
+#trek-card-2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 675px;
+    width: 360px;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+.card-style-2{
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-color: white;
+}
+#trek-card-2 img{
+    height: 268px;
+    width: 680px;
+}
+#trek-card-2 h2{
+    margin-left: 50px;
+}
+#trek-card-2 a{
+    margin-left: 124px;
+    margin-bottom: 20px;
+    background-color: green;
+    border: solid green;
+    border-width: 34px;
+}
+#trek-card-3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 750px;
+    width: 360px;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+.card-style-3{
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-color: white;
+}
+#trek-card-3 img{
+    height: 268px;
+    width: 680px;
+}
+#trek-card-3 h2{
+    margin-left: 50px;
+}
+#trek-card-3 a{
+    margin-left: 124px;
+    margin-bottom: 20px;
+    background-color: green;
+    border: solid green;
+    border-width: 34px;
+}
+#trek-card-4{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 750px;
+    width: 360px;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+.card-style-4{
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-color: white;
+}
+#trek-card-4 img{
+    height: 268px;
+    width: 680px;
+}
+#trek-card-4 h2{
+    margin-left: 50px;
+}
+#trek-card-4 a{
+    margin-left: 124px;
+    margin-bottom: 20px;
+    background-color: green;
+    border: solid green;
+    border-width: 34px;
+}
