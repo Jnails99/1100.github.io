@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#centered-column {
+    width: 90vw;
+    max-width: 250px;
+    margin: 48px auto;
+    height: 250px;
+    background-color: aqua;
+    box-shadow: 2px 1px 8px lightpink;
+}
+#centered-column h2{
+    text-align: center;
+}
+#centered-column a {
+    background-color: palevioletred;
+    border-style: solid;
+    border-width: 10px;
+    border-color: palevioletred;
+    margin-left: 75px;
+}
+#centered-column p{
+    text-align: center;
+}
+#centered-column img{
+    width: 150px;
+    padding-top: 20px;
+    padding-left: 100px;
+}
