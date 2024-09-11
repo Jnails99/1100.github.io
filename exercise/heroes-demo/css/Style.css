@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Staatliches&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "inter", sans-serif;
+}
+
+/* header and navigation */
+#header {
+    background-color: #498300;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.nav a {
+    color: #efefef;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+.nav a:hover {
+    background-color: #6e430e;
+}
+
+/* plant hero */
+#plant-hero {
+    background-image: url(../images/hero1.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom right;
+    display: flex;
+    align-items: center;
+}
+
+#plant-hero h1 {
+    font-family: "staatliches", sans-serif;
+    margin: 0px;
+    font-size: 100px;
+}
+#plant-hero p {
+    margin: 10px 0px 20px;
+}
+#plant-hero .btn {
+    display: inline-block;
+    border: 2px solid #498300;
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #498300;
+    transition: 
+        background-color 0.5s, 
+        color 0.5s
+    ;
+}
+#plant-hero .btn:hover {
+    background-color: #498300;
+    color: #efefef;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+    color: #efefef;
+    background-color: #111;
+    padding: 10px 0px;
+}
+
+/* cat hero */
+#cat-hero {
+    background-image: url(../images/hero2.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #efefef;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+#cat-hero .container {
+    width: max-content;
+    margin: 0px;
+    padding-right: 10%;
+    padding-bottom: 100px;
+}
+#cat-hero h1 {
+    font-size: 100px;
+    margin: 0px;
+    font-family: "staatliches", sans-serif;
+}
+#cat-hero p {
+    margin: 10px 0px 20px;
+}
+#cat-hero a {
+    display: inline-block;
+    border: 2px solid #ffc700;
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffc700;
+    transition: 
+        background-color 0.5s 
+        color 0.5s
+    ;
+}
+#cat-hero a:hover {
+    background-color: #ffc700;
+    color: #111;
+}
+
+/* extra heroes */
+#hero-1 {
+    height: 100vh;
+    background-image: url(../images/lizard.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#hero-1 h1 {
+    font-size: 15vw;
+    padding-left: 10vw;
+}
+
+#hero-2 {
+    background-image: url(../images/lonely-ocean.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+#hero-2 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+#hero-2 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #f2c7ff;
+    color: #4a0060;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-3 {
+    background-image: url(../images/orange-wildflowers.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#hero-3 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+#hero-3 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+} 
+#hero-3 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #ffc700;
+    color: #111;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+#hero-4 {
+    background-image: url(../images/stars-on-velvet.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-4 .hero-content {
+    color: #efefef;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+#hero-4 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+} 
+#hero-4 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+#hero-4 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #ffc700;
+    color: #111;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+.spacer {
+    height: 20vh;
+    background-image: url(../images/emerald-seas.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
