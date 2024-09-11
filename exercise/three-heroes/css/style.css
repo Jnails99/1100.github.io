@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "inter", sans-serif;
+}
+
+#hero-3 {
+    background-image: url(../images/martin-baron-JhjjnqGk_Bk-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#hero-3 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+#hero-3 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+} 
+#hero-3 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #fcfbfa;
+    color: #111;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+#hero-2 {
+    background-image: url(../images/mw-IEZQLvWp-kU-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+#hero-2 h2 {
+    font-size: 10vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: white;
+}
+#hero-2 h4 {
+    font-size: 4vw;
+    margin: 0px 5vw 0px 0px;
+    color: white;
+}
+#hero-2 a {
+    font-size: 3vw;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #fbf8fc;
+    color: #fa5306;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+#hero-4{
+    background-image: url(../images/warren-umoh-eSnOeMaH6RI-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#hero-4 .hero-content {
+    color: #efefef;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#hero-4 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5px;
+} 
+#hero-4 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+#hero-4 a {
+    font-size: 1.5vh;
+    display: inline-block;
+    border-radius: 24px;
+    background-color: #fdfdfc;
+    color: #111;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
