@@ -1,0 +1,115 @@
+@font-face {
+    font-family: dafont;
+    src: url(friday13v12);
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#navbar {
+    background: linear-gradient(to bottom, #f1d847, #2f5503);
+    display: flex;
+    align-items: center;
+}
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: chiro;
+}
+#navbar #logo {
+    margin-right: auto;
+    font-size: 36px;
+}
+#navbar-2 {
+    background: linear-gradient(to bottom, #01395a, #d48103);
+    display: flex;
+    align-items: center;
+
+}
+#navbar-2 a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 30%;
+    font-style: normal;
+}
+#navbar-2 #logo {
+    margin-right: auto;
+    font-size: 36px;
+}
+#navbar-2 .cta-buttom {
+    background-color: white;
+    color: peachpuff;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+#navbar-top a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 450px;
+    color: white;
+    padding: 24px;
+}
+#navbar-3 {
+    background: linear-gradient(to bottom, #fc0c0c, #222120);
+    display: flex;
+    align-items: center;
+}
+#navbar-3 a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 30%;
+    font-style: normal;
+}
+#navbar-3 #logo {
+    margin-right: auto;
+    font-size: 36px;
+    font-family: dafont;
+}
+#navbar-3 .cta-buttom {
+    background-color: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+#navbar-bottom {
+    background-color: #161615;
+}
+
+#navbar-bottom .content-column {
+    display: flex;
+    margin-left: 28%;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 0px;
+    margin-inline: 20px;
+    font-size: 12px;
+}
