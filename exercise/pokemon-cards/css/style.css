@@ -20,6 +20,8 @@ body {
 }
 #pokemon-card-1 {
     background: linear-gradient(90deg, crimson, gold 50%);
+    border-color: rgb(255, 217, 0);
+    border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -51,6 +53,50 @@ body {
 }
 .details {
     margin-left: 20px;
-    border-style: solid black;
+    box-sizing: border-box;
+    border-style: solid;
+    background: radial-gradient(middle brown);
     height: 10px;
+}
+#pokemon-card-2 {
+    background: linear-gradient(90deg, crimson, gold 50%);
+    border-color: rgb(255, 217, 0);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 550px;
+    width: 360px;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 15px;
+    grid-template-rows: 45px 100px ;
+}
+#pokemon-card-3 {
+    background: linear-gradient(90deg, crimson, gold 50%);
+    border-color: rgb(255, 217, 0);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 550px;
+    width: 360px;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 15px;
+    grid-template-rows: 45px 100px ;
+}
+#pokemon-card-4 {
+    background: linear-gradient(90deg, crimson, gold 50%);
+    border-color: rgb(255, 217, 0);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 550px;
+    width: 360px;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 15px;
+    grid-template-rows: 45px 100px ;
 }
