@@ -439,14 +439,15 @@ body {
     Media Queries Styling
 **************************************************************/
 /* TODO: Write your media queries here */
-@media only screen and (max-width: 1000px)(mid-width:801px){
-    #grid-layout{
-        width: 100px;
+@media only screen and  (max-width: 1000px) and (min-width: 801px){
+    body {
+        background-color: red;
     }
-    #top-left-accent{
-       width: 100px;
+    #nav {
+        flex-direction: column;
+        align-items: center;
     }
-}
-@media only screen and (max-width: 800px){
-
-}
+    header{
+        
+    }
+}  
