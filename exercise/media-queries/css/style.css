@@ -211,3 +211,12 @@ a {
 ****************************************************************************/
 
 /* TODO: Add your media query code here */
+@media screen and (max-width: 768px) {
+    #leftsidebar {width: 200px; float: left;
+    }
+    #main {margin-left: 216px;
+    }
+    #nav {
+        
+    }
+}
