@@ -6,6 +6,9 @@
 body{
     background-color: darkgrey;
 }
+section{
+    align-items: center;
+}
 header{
     top: 0;
     left: 0;
@@ -48,7 +51,6 @@ header ul li a{
     bottom: 15px;
     color: white;
     width: 600px;
-    margin-left: auto;
     margin-left: auto;
 }
 .textbox h4{
