@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'poppins', sans-serif;
+    font-family: 'poppins', sans-serif "Audiowide", sans-serif;
     box-sizing: border-box;
 }
 html{
@@ -14,12 +14,30 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(../images/Image\ 2.png);
     background-size: cover;
     background-position: center;
 }
 .container{
     padding: 10px 10%;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
 }
 nav{
     display: flex;
@@ -57,6 +75,7 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 20%;
     font-size: 30px;
+    text-align: center;
 }
 .header-text h1{
     font-size: 60px;
@@ -80,7 +99,7 @@ nav ul li a:hover::after{
 .about-col-1 img{
     width: 100%;
     height: auto;
-    border-radius: 15px;
+    border-radius: 1000px;
 }
 .about-col-2{
     flex-basis: 60%;
@@ -377,10 +396,92 @@ nav .fa-solid{
     .copyright{
         font-size: 14px;
     }
+    .box{
+        height: 20px;
+    }
 }
 
 #msg{
     color: #61b752;
     margin-top: -20px;
     display: block;
+}
+
+/*--------------social media page html----------*/
+.logo-2{
+    width: 140px;
+}
+.sub-title-1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: "Audiowide", sans-serif;
+}
+.wrapper{
+    padding: 10px 10%;
+}
+#card-area{
+    padding: 50px 0;
+}
+.box-area{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.box{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.box img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.overlay{
+    height: 0;
+    width: 100%;
+    background: linear-gradient(transparent, #1c1c1c 58%);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 100px;
+    text-align: center;
+    font-size: 10px;
+    transition: height 0.5s;
+}
+.overlay h3{
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 40%;
+    font-family: bebas neue;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.overlay a{
+    display: flex;
+    margin-top: 10px;
+    color: #333333;
+    text-decoration: none;
+    background: black;
+    font-size: 13px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 5px 15px;
+}
+.box:hover img{
+    transform: scale(1.2);
+}
+.box:hover .overlay{
+    height: 100%;
 }
