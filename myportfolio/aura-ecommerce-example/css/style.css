@@ -339,78 +339,58 @@ header.sticky{
     text-transform: capitalize;
 }
 
-@media only screen and (max-width: 992px) and (orientation: portrait){
-    .header{
-        width: 100%;
-        height: auto;
-    }
-    .logo img{
-        width: auto;
-        height: auto;
-    }
-    .nav-icon{
-        width: auto;
-    }
-    .navmenu {
-        width: 100%;
-        height: auto;
-    }
-    .navmenu a{
-        width: 100%;
-        height: auto;
-    }
-    .nav-icon{
-        width: 100%;
-        height: auto;
-    }
-    .main-home{
-        width: 100%;
-        height: auto;
+@media(max-width: 890px){
+    header{
+        padding: 20px 3%;
+        transition: .4s;
     }
     .contact{
-        width: 515px;
-    }
-    .products{
-        width: 200px;
-    }
-    .update-cart{
-        width: 200px;
+        padding: 20px 3%;
+        transition: .4s;
     }
 }
-@media only screen and (max-width: 640px) and (orientation: landscape){
-    .header{
-        width: 100%;
-        height: auto;
+@media(max-width: 630px){
+    .main-text h1{
+        font-size: 50px;
+        transition: .4s;
     }
-    .logo img{
-        width: auto;
-        height: auto;
+    .main-text p{
+        font-size: 18px;
+        transition: .4s;
     }
-    .nav-icon{
-        width: auto;
-    }
-    .navmenu {
-        width: 100%;
-        height: auto;
-    }
-    .navmenu a{
-        width: 100%;
-        height: auto;
-    }
-    .nav-icon{
-        width: 100%;
-        height: auto;
+    .main-btn{
+        padding: 10px 20px;
+        transition: .4s;
     }
     .main-home{
-        width: 100%;
-        height: auto;
+        padding: 40px 8%;
+        transition: .4s;
     }
-    .contact{
-        width: 200px;
-        height: 200px;
+}
+@media(max-width: 750px){
+    .navmenu{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 130vh;
+        background: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 120px 30px;
+        transition: all .42s;
     }
-    .products{
-        width: 400px;
-        height: 200px;
+    .navmenu a{
+        display: block;
+        margin: 18px 0;
     }
+    .logo img{
+        padding: 20px 20px;
+        transition: .4s;
+    }
+    .navmenu.open{
+        right: 0;
+    }
+
 }

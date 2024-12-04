@@ -8,6 +8,6 @@ let menu = document.querySelector('#menu-icon');
 let navmenu = document.querySelector('.navmenu');
 
 menu.onclick = () => {
-    menu.onclick.toggle('bx-x');
-    navmenu.onclick.toggle('open');
+    menu.classList.toggle('bx-x');
+    navmenu.classList.toggle('open');
 }
