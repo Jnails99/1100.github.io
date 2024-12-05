@@ -1,9 +1,10 @@
 html, body{
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
+    box-sizing: border-box;
     background: url(Image\ \(12\).png);
+    background-size: cover;
+    background-position: center;
     background-size: cover;
 }
 
@@ -17,7 +18,191 @@ html, body{
 .slick-slide:focus{
     outline: none;
 }
+
 .slick-slide img{
-    width: 52%;
+    width: 60%;
 }
 
+.slick-slide{
+    transition: all ease-in-out 1s;
+    opacity: .2s;
+}
+
+.slick-active{
+    opacity: .2s;
+}
+
+.slick-current{
+    opacity: 1;
+}
+
+.center .slider{
+    align-items: center;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: url(Image\ \(6o\).png);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+#menu-icon{
+    font-size: 35px;
+    color: white;
+    z-index: 10001;
+    cursor: pointer;
+}
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo h1{
+    font-size: 40px;
+    color: yellow;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+section{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.center-text h2{
+    color: #fff;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.center-text span{
+    color: yellow;
+}
+
+h3{
+    font-family: sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+p{
+    margin-top: 4px;
+    font-family: sans-serif;
+    color: grey;
+    text-transform: uppercase;
+}
+
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: "Bodoni Moda", serif;
+    margin-left: 30px;
+    color: yellow;
+    font-weight: 400;
+    transition: 0.5s ease;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.copyright p{
+    color: #fff;
+    font-weight: 400;
+}
+.copyright i{
+    color: yellow;
+}
+
+@media(max-width: 890px){
+    .header{
+        padding: 20px 3%;
+        transition: .4s;
+    }
+    nav ul li{
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        transition: .4s;
+    }
+    .contact{
+        padding: 20px 3%;
+        transition: .4s;
+    }
+}
+@media(max-width: 630px){
+    .logo h1{
+        font-size: 30px;
+        transition: .4s;
+    }
+    nav ul li{
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        transition: .4s;
+    }
+    .main-btn{
+        padding: 10px 20px;
+        transition: .4s;
+    }
+    .main-home{
+        padding: 40px 8%;
+        transition: .4s;
+    }
+}
+@media(max-width: 750px){
+    .navmenu{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 130vh;
+        background: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 120px 30px;
+        transition: all .42s;
+    }
+    .navmenu a{
+        display: block;
+        margin: 18px 0;
+    }
+    .header{
+        padding: 20px 20px;
+        transition: .4s;
+    }
+    .navmenu.open{
+        right: 0;
+    }
+    nav ul li{
+        font-size: 18px;
+        transition: .4s;
+    }
+}
