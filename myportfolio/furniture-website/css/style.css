@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(122, 107, 87);
+}
 .navbar-top{
     width: 100%;
     height: 10vh;
@@ -16,7 +19,7 @@
     cursor: pointer;
 }
 .social-link i img:hover{
-    background-color: rgba(238, 224, 208);
+    background-color: rgb(248, 198, 142);
     border-radius: 50px;
 }
 @media screen and (max-width:420px){
@@ -49,7 +52,7 @@
     background-position: 70%;
 }
 #navbar-color{
-    background-color: rgba(238, 224, 208);
+    background-color: rgb(212, 136, 49);
 }
 .navbar-nav{
     margin: auto;
@@ -103,4 +106,61 @@
 }
 #tpc:hover{
     transform: translate(-10px);
+}
+
+#c p{
+    font-weight: bold;
+}
+#btn3 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn3 button:hover{
+    background-color: rgba(238, 224, 208,);
+}
+@media screen and (max-width:895px){
+    #btn3 button{
+        width: 100px;
+    }
+}
+
+#btn4 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn4 button:hover{
+    background-color: rgba(238, 224, 208,);
+}
+
+#footer{
+    width: 100%;
+    background-color: rgb(212, 136, 49);
+    margin-top: 100px;
+}
+#footer h1{
+    color: white;
+    padding-top: 30px;
+}
+#footer p{
+    color: white;
+}
+.icons i{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.copyright{
+    color: white;
+    margin-top: 20px;
+}
+.credite{
+    color: white;
 }
