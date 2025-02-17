@@ -445,45 +445,56 @@ nav .fas{
     display: block;
 }
 
-/*------online shopping---------*/
+/*-------------my work-------------*/
 
-.top-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    padding: 2em;
+.card-container {
     display: flex;
     justify-content: center;
-    z-index: 2;
+    flex-wrap: wrap;
+    margin-top: 100px;
 }
-.top-header p {
-    text-transform: uppercase;
-    font-family: "Akkurat Trial TT";
-    font-size: 12px;
-    font-weight: 600;
-    padding: 4px;
-    background-color: #d4f70c;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+
+.card {
+    width: 325px;
+    background-color: #000000;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 26px;
 }
-.online-header {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-container {
+    padding: 16px;
+}
+
+.card-container h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-left: 12px;
     text-align: center;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-    will-change: transform;
-    z-index: 2;
 }
-.online-header h1 {
-    text-transform: uppercase;
-    font-family: "Cy Grotesk";
-    font-size: 7.5vw;
-    letter-spacing: -0.025em;
-    line-height: 1;
-    transform-style: preserve-3d;
-    backface-visibility: hidden;
-  }
+
+.card-container .btn-2{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    padding: 8px 18px;
+    text-align: center;
+    border: 1px solid #ff79bc;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    font-size: 11px;
+    color: #fff;
+    transition: background 0.5s;
+}
+
+.btn-2:hover{
+    background: #ff79bc;
+}
