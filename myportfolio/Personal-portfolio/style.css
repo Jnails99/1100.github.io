@@ -133,8 +133,10 @@ nav ul li a:hover::after{
     flex-basis: 35%;
 }
 .about-col-1 img{
-    width: 100%;
-    border-radius: 15px;
+    width: 70%;
+    border-radius: 200px;
+    border-color: #000000;
+    border-style: solid;
 }
 .about-col-2{
     flex-basis: 60%;
@@ -474,6 +476,7 @@ nav .fas{
 
 .card-container h3 {
     font-size: 18px;
+    font-family: "roashe";
     margin-bottom: 8px;
     margin-left: 12px;
     text-align: center;
@@ -497,4 +500,12 @@ nav .fas{
 
 .btn-2:hover{
     background: #ff79bc;
+}
+
+.heading1 h1 {
+    font-size: 50px;
+    font-family: "roashe";
+    margin-top: 40px;
+    margin-left: 12px;
+    text-align: center;
 }
