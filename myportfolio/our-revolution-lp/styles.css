@@ -7,7 +7,7 @@
 html,
 body {
   font-family: "Sharp Grotesk";
-  background: #e7e4e5;
+  background: #140c0f;
   overflow: hidden;
 }
 
@@ -15,7 +15,7 @@ body {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: #000;
+  background: #351818;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
   pointer-events: none;
 }
@@ -74,7 +74,7 @@ nav {
 a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #000;
+  color: #ffffff;
 }
 
 .hero {
@@ -84,6 +84,10 @@ a {
   transform: translateY(-50%);
   text-transform: uppercase;
   font-family: "PP Migra";
+}
+
+.hero H1{
+  color: #ffffff;
 }
 
 .h1 {
