@@ -8,7 +8,7 @@ gsap.ticker.lagSmoothing(0);
 
 // 2. Scene Setup
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0xfefdfd);
+scene.background = new THREE.Color(0x504949);
 
 const camera = new THREE.PerspectiveCamera(
   75,
@@ -32,18 +32,18 @@ renderer.toneMappingExposure = 2.5;
 document.querySelector(".model").appendChild(renderer.domElement);
 
 // 3. Lighting Setup
-const ambientLight = new THREE.AmbientLight(0xffffff, 3);
+const ambientLight = new THREE.AmbientLight(0xD8cfc4, 3);
 scene.add(ambientLight);
 
-const mainLight = new THREE.DirectionalLight(0xffffff, 1);
-mainLight.position.set(5, 10, 7.5);
+const mainLight = new THREE.DirectionalLight(0xD8cfc4, 1);
+mainLight.position.set(5, 6, 7.5);
 scene.add(mainLight);
 
-const fillLight = new THREE.DirectionalLight(0xffffff, 3);
+const fillLight = new THREE.DirectionalLight(0xD8cfc4, 3);
 fillLight.position.set(-5, 0, -5);
 scene.add(fillLight);
 
-const hemiLight = new THREE.HemisphereLight(0xffffff, 0xffffff, 2);
+const hemiLight = new THREE.HemisphereLight(0xD8cfc4, 0xD8cfc4, 2);
 hemiLight.position.set(0, 25, 0);
 scene.add(hemiLight);
 

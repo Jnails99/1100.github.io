@@ -35,6 +35,7 @@ h2 {
   font-size: 2.5vw;
   font-weight: 500;
   line-height: 100%;
+  color: #fff;
 }
 
 p {
@@ -47,7 +48,7 @@ p {
   position: fixed;
   width: 100%;
   height: 100vh;
-  background: #fefdfd;
+  background: #504949;
 }
 
 section {
@@ -64,11 +65,13 @@ section {
 
 .hero h1 {
   margin-bottom: 0.25em;
+  color: #fff;
 }
 
 .hero p {
   width: 50%;
   text-align: center;
+  color: #fff;
 }
 
 .info {
@@ -81,14 +84,20 @@ section {
   gap: 2em;
 }
 
+.product-description p{
+  color: #fff;
+}
+
 .info h2 {
   width: 75%;
   text-align: center;
+  color: #fff;
 }
 
 .info p {
   width: 60%;
   text-align: center;
+  color: #fff;
 }
 
 .scan-info {
@@ -103,7 +112,7 @@ section {
 .scan-container {
   width: 280px;
   height: 480px;
-  border: 1px solid #000;
+  border: 1px solid #ffffff;
   border-radius: 0.5em;
 }
 
@@ -128,6 +137,7 @@ section {
 .outro h2 {
   width: 70%;
   text-align: center;
+  color: #fff;
 }
 
 .lenis.lenis-smooth {
