@@ -286,6 +286,20 @@ a{
         top: 100%;
         right: 0;
         width: 300px;
+        display: none;
+    }
+    .navbar-second .flex{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 300px;
+        display: none;
+    }
+    .container-2 {
+        font-size: 80%;
+    }
+    .container-2 h3{
+        font-size: 100%;
     }
 }
 
@@ -293,5 +307,10 @@ a{
     nav{
         padding: 20px 3%;
         transition: .4s;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-one .left{
+        display: none;
     }
 }
