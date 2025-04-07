@@ -13,6 +13,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 .navbar{
     width: 85%;
@@ -172,4 +174,36 @@ input:checked + label .description{
 }
 .card[for="c4"]{
     background-image: url(../images/Image\ \(16\).jpg);
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .navbar ul{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 300px;
+        display: none;
+    }
+    .logo {
+        display: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner{
+        background-image: url(../images/Image\ \(39\).jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+    }
+    .wrapper .container{
+        width: 100%;
+        padding: 15px;
+    }
 }
