@@ -18,6 +18,9 @@ I worked with a team to improve the user interface, assist with layout design, a
 
 ## Screenshots
 ![Screenshot 2025-05-26 102156](https://github.com/user-attachments/assets/f71d20ed-e470-4a1a-97f4-8a2f0bfed7e5)
+![Screenshot 2025-05-26 105352](https://github.com/user-attachments/assets/5ab1da5f-dc0a-4437-8a0a-f67ee9860b48)
+![Screenshot 2025-05-26 105421](https://github.com/user-attachments/assets/2dcca02b-d41b-4d13-ae91-da437ed0aa27)
+
 
 
 
@@ -46,3 +49,6 @@ The portfolio was built using **HTML** and **CSS** with a focus on clean layout,
 
 ## Screenshots
 ![Screenshot 2025-05-26 104424](https://github.com/user-attachments/assets/5892415d-1b44-43bf-9a42-280f1418e939)
+![Screenshot 2025-05-26 105153](https://github.com/user-attachments/assets/b8b16fcf-b09b-4ff9-bc28-697cb3b58d3b)
+![Screenshot 2025-05-26 105228](https://github.com/user-attachments/assets/0c945eb0-bf56-4a57-a841-36342a34c9ee)
+![Screenshot 2025-05-26 105255](https://github.com/user-attachments/assets/85f26deb-264b-4b85-b977-ebc322fbfb2b)
